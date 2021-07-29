@@ -1,0 +1,14 @@
+<html>
+    <div id="main">
+
+    </div>
+    <script src="./pokeystars.js">
+    
+    </script>
+    <script>
+        var pokeLength = pokeStars.length;
+        for (i=0;i<pokeLength;i++) {
+            document.getElementById("main").innerHTML += "Name:" + pokeStars[i].name + "<br />" + "HP:" + pokeStars[i].hp + " Attack:" + pokeStars[i].attack + " Defense:" + pokeStars[i].defense + " Special Attack:" + pokeStars[i].special_attack + " Special Defense:" + pokeStars[i].special_defense + " Speed:" + pokeStars[i].speed + " Total Stars:" + pokeStars[i].stat_total + "<br />"
+        }
+    </script>
+</html>
